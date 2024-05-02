@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex-item {
+    text-align: center;
+    margin: 10px;
+    background-color: #a74de3;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.flex-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.flex-item img {
+    width: 60%;
+    height: auto;
+}
+
+
+.flex-item.small {
+    flex: 1 0 15%;
+    padding: 10px;
+}
+
+/* Hover effects */
+.flex-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
